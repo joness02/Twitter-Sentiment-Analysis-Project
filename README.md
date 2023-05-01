@@ -1,3 +1,8 @@
+
+
+![UTA-DataScience-Logo](https://user-images.githubusercontent.com/112208238/235486243-3ec10ea4-ff8e-4fa7-aa2d-460178c7ea4c.png)
+
+
 # Twitter-Sentiment-Analysis-Project
 
 # Project Description
