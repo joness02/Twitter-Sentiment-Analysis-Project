@@ -23,4 +23,4 @@ The project involves the following steps:
 In conclusion, the Twitter Entity Sentiment Analysis dataset provides a valuable resource for sentiment analysis tasks related to social media data. In this challenge, we have explored various machine learning models to predict the sentiment of Twitter entities, including Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, AdaBoost, and Gaussian Naive Bayes. Among these models, the Random Forest Classifier has shown the highest accuracy in predicting sentiment on this dataset. However, there is still room for improvement, and future work can explore more advanced techniques such as deep learning or leveraging external data sources to further enhance the performance of sentiment analysis on Twitter data. Overall, this challenge has demonstrated the importance of sentiment analysis in understanding public opinion and the potential of machine learning in automating this task.
 
 
-My python approach can be found in this repository named as **Project**
+My python approach can be found in this repository named as **Project**.
