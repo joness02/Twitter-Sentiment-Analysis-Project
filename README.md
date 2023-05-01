@@ -6,17 +6,17 @@ This project explores the sentiment analysis of Twitter entities using machine l
 
 The project involves the following steps:
 
--Data Cleaning and Preprocessing: The raw data is cleaned and preprocessed by removing stopwords, special characters, and numbers, and converting the text to lowercase.
+- Data Cleaning and Preprocessing: The raw data is cleaned and preprocessed by removing stopwords, special characters, and numbers, and converting the text to lowercase.
 
--Feature Extraction: Text features are extracted from the preprocessed data using techniques such as bag-of-words, TF-IDF, and Word2Vec.
+- Feature Extraction: Text features are extracted from the preprocessed data using techniques such as bag-of-words, TF-IDF, and Word2Vec.
 
--Model Building: Various machine learning models such as Random Forest Classifier, Logistic Regression, and Naive Bayes are trained on the preprocessed data and their performance is compared using metrics such as accuracy, precision, recall, and F1-score.
+- Model Building: Various machine learning models such as Random Forest Classifier, Logistic Regression, and Naive Bayes are trained on the preprocessed data and their performance is compared using metrics such as accuracy, precision, recall, and F1-score.
 
--Overall, this project aims to provide insights into the sentiment of Twitter entities using machine learning techniques and to demonstrate how these techniques can be applied in a real-world scenario.
+- Overall, this project aims to provide insights into the sentiment of Twitter entities using machine learning techniques and to demonstrate how these techniques can be applied in a real-world scenario.
 
 # Files
 
--[Training and testing files for this project on Kaggle](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis){:target="_blank"}
+-[Training and testing files for this project on Kaggle](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis)
 
 # Conclusion
 
