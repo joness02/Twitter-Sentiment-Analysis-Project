@@ -11,13 +11,9 @@ This repository hoolds an attempt to apply the RandomForestClassifier model to t
 ## Overview
 
 * This section could contain a short paragraph which include the following:
-  * **Definition of the tasks / challenge**  Ex: The task, as defined by the Kaggle challenge is to use a time series of 12 features, sampled daily for 1 month, to predict the next day's price of a stock.
-  * **Your approach** Ex: The approach in this repository formulates the problem as regression task, using deep recurrent neural networks as the model with the full time series of features as input. We compared the performance of 3 different network architectures.
-  * **Summary of the performance achieved** Ex: Our best model was able to predict the next day stock price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
-
-## Summary of Workdone
-
-Include only the sections that are relevant an appropriate.
+  * The task or challenge presented by the Twitter Entity Sentiment Analysis dataset on Kaggle is to build a machine learning model that can predict the sentiment of tweets towards different entities mentioned in the tweet, such as people, organizations, or locations. The sentiment can be either positive, negative, or neutral. The dataset provides labeled examples of tweets mentioning various entities, along with their corresponding sentiment labels, for training and evaluation purposes. The goal is to create a model that can accurately predict the sentiment of tweets towards different entities in new, unseen data.
+  * My approach here is to use the RandomForestClassifier to improve the accuracy so that my model can more accurately tell if the tweet is **Positive**, **Negative**, **Neutral** or **Irrelevant**. 
+  * So far the accuracy of my model has been **92%**.
 
 ### Data
 
@@ -25,8 +21,9 @@ Include only the sections that are relevant an appropriate.
   * Type: For example
     * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
     * Input: CSV file of features, output: signal/background flag in 1st column.
-  * Size: How much data?
-  * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
+  * Size: The training set csv was 10MB.
+  * Instances: The training set has 74682 data points which were split in 80-20 format for training the model and testing it upon the remaining tweets for sentiment analysis and determine the accuracy. The archive file also included another csv file with 1000 data points for validation. 
+
 
 #### Preprocessing / Clean up
 
@@ -41,40 +38,20 @@ Show a few visualization of the data and say a few words about what you see.
 * Define:
   * Input / Output
   * Models
-    * Describe the different models you tried and why.
+    * I have used 2 other models for this sentiment analysis Hugging Face and VADER. After examination I felt that the RandomForestClassifier was the easiest to work with and gave the best results.
   * Loss, Optimizer, other Hyperparameters.
 
 ### Training
 
-* Describe the training:
-  * How you trained: software and hardware.
-  * How did training take.
-  * Training curves (loss vs epoch for test/train).
-  * How did you decide to stop training.
-  * Any difficulties? How did you resolve them?
-
-### Performance Comparison
-
-* Clearly define the key performance metric(s).
-* Show/compare results in one table.
-* Show one (or few) visualization(s) of results, for example ROC curves.
+  * Training took near about 20 mins. 
 
 ### Conclusions
 
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+  * I would say my code isn't good yet but I would work on it to perfect it in the future.
 
 ### Future Work
 
-* What would be the next thing that you would try.
-* What are some other studies that can be done starting from here.
-
-## How to reproduce results
-
-* In this section, provide instructions at least one of the following:
-   * Reproduce your results fully, including training.
-   * Apply this package to other data. For example, how to use the model you trained.
-   * Use this package to perform their own study.
-* Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
+  * My future work would include looking around for more models for better accuracy and try to build my own model for a senti
 
 ### Overview of files in repository
 
@@ -115,10 +92,3 @@ Show a few visualization of the data and say a few words about what you see.
 ## Citations
 
 * Provide any references.
-
-
-
-
-
-
-
