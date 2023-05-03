@@ -1,9 +1,12 @@
-![](UTA-DataScience-Logo.png)
+![UTA-DataScience-Logo](https://user-images.githubusercontent.com/112208238/235835653-b29143a5-301e-4943-be96-97148cd62bda.png)
 
-# Project Title
+
+# Twitter Sentiment Analysis
 
 * **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
 "Get Rich" Kaggle challenge (provide link). 
+
+This repository hoolds an attempt to apply the RandomForestClassifier model to the dataset provided by Kaggle in one of it's challenge named 'Twitter sentiment Analysis'.
 
 ## Overview
 
