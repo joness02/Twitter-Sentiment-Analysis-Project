@@ -14,20 +14,14 @@ This repository hoolds an attempt to apply the RandomForestClassifier model to t
 ### Data
 
 * Data:
-  * Type: For example
-    * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
-    * Input: CSV file of features, output: signal/background flag in 1st column.
+  * Type: .csv file
   * Size: The training set csv was 10MB.
   * Instances: The training set has 74682 data points which were split in 80-20 format for training the model and testing it upon the remaining tweets for sentiment analysis and determine the accuracy. The archive file also included another csv file with 1000 data points for validation. 
 
-
 #### Preprocessing / Clean up
 
-* Describe any manipulations you performed to the data.
-
-#### Data Visualization
-
-Show a few visualization of the data and say a few words about what you see.
+  * I used the one-hot encoding method to preprocess the data.
+  * The method to clean the data involves several techniques such as converting text to lowercase, removing URLs, punctuation, and numbers, tokenizing words, removing stop words, and stemming words. These techniques can be classified as lowercasing, URL removal, punctuation removal, number removal, tokenization, stop word removal, and stemming.
 
 ### Problem Formulation
 
